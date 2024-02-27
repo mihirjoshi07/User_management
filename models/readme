@@ -1,0 +1,24 @@
+Schema Planning and Design:
+
+We analyzed the requirements and identified the main entities: Users
+Designed the schema for each entity with appropriate fields and relationships.
+Schema Validation:
+
+Implemented schema validation rules to ensure data integrity and consistency.
+Validated fields such as usernames, email addresses, and post titles.
+Relationship Handling:
+
+Embedded comments within posts to streamline querying and improve performance.
+Referenced users and posts separately for likes to maintain data integrity and flexibility in querying.
+Query Optimization:
+
+Created indexes on fields like author, tags, and creation date to optimize common queries.
+Ensured efficient retrieval of posts with their comments, user-specific posts, and posts with specific tags.
+Schema Testing:
+
+Wrote comprehensive unit tests to validate schema definitions and validation rules.
+Simulated various scenarios to ensure the schema behaves as expected under different conditions.
+Documentation:
+
+Added comments and documentation to the schema definitions for clarity and understanding.
+Generated API documentation using JSDoc to provide insights into the data structure and usage.
