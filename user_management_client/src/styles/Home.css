@@ -1,0 +1,124 @@
+/* Styles for the main container */
+.container {
+  text-align: center;
+}
+
+/* Styles for the jumbotron, providing a visual focus area */
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 104px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the main heading in the jumbotron */
+.display-4 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Styles for the lead paragraph in the jumbotron */
+.lead {
+  font-size: 1.5rem;
+  color: #495057;
+  margin-bottom: 20px;
+}
+
+/* Common styles for buttons */
+.btn {
+  font-size: 1.2rem;
+  padding: 8px 1px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Styles for the primary button (e.g., View User List) */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid #007bff;
+}
+
+/* Hover styles for the primary button */
+.btn-primary:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Styles for the success button (e.g., Add New User) */
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border: 2px solid #28a745;
+}
+
+/* Hover styles for the success button */
+.btn-success:hover {
+  background-color: #218838;
+  color: #fff;
+}
+
+/* Styles for the secondary button (e.g., Populate Database) */
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: 2px solid #6c757d;
+}
+
+/* Hover styles for the secondary button */
+.btn-secondary:hover {
+  background-color: #5a6268;
+  color: #fff;
+}
+
+/* Styles for the "Add User" button */
+.btn-add-user {
+  background-color: #ffc107;
+  color: #212529;
+  border: 2px solid #ffc107;
+}
+
+/* Hover styles for the "Add User" button */
+.btn-add-user:hover {
+  background-color: #e0a800;
+  color: #212529;
+}
+
+/* Styles for the "View User" button */
+.btn-view-user {
+  background-color: #17a2b8;
+  color: #fff;
+  border: 2px solid #17a2b8;
+}
+
+/* Hover styles for the "View User" button */
+.btn-view-user:hover {
+  background-color: #138496;
+  color: #fff;
+}
+
+/* Styles for the "Populate Data" button */
+.btn-populate-data {
+  background-color: #dc3545;
+  color: #fff;
+  border: 2px solid #dc3545;
+}
+
+/* Hover styles for the "Populate Data" button */
+.btn-populate-data:hover {
+  background-color: #c82333;
+  color: #fff;
+}
+
+/* Additional styling for icons within buttons */
+.btn svg {
+  margin-right: 8px;
+}
